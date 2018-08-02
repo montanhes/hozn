@@ -1,0 +1,364 @@
+/* Desktop */
+@media (min-width: 992px) {
+    /* SESSÃO SERVIÇOS/HOSPITAL */
+    .conteudo-cinza {
+        width: 480px;
+        margin-left: auto;
+        padding-left: 15px;
+    }
+    .conteudo-azul {
+        width: 480px;
+        margin-right: auto;
+        padding-right: 15px;
+        margin-left: 65px;
+    }
+    /* SESSÃO SERVIÇOS/HOSPITAL */
+}
+
+
+@media (min-width: 769px) {
+    /* SESSÃO HEADER */
+    .header-conteudo {
+        flex-direction: row;
+    }
+    .logo {
+        position: absolute;
+    }
+    .logo a img {
+        width: 100%;
+    }
+    .logo .navbar-light {
+        display: none;
+    }
+    .menu-conteudo {
+        margin-left: 232px;
+    }
+    .social-menu {
+        margin: 0 0 0 100px;
+        display: flex;
+        list-style: none;
+        border-bottom: 1px solid #ccc;
+        justify-content: flex-end;
+    }
+    .social-menu ul {
+        display: flex;
+        margin: 0;
+        background-color: #0c79ba;
+        padding: 5px 30px;
+        list-style: none;
+    }
+    .social-menu li {
+        background-color: #0c79ba;
+    }
+    .social-menu li a {
+        color: #fff;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .menu ul {
+        flex-direction: row;
+        margin: 0 0 0 100px;
+    }
+    .contato-topo {
+        flex-grow: 0.6;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        transform: scale(0.85);
+    }
+    .contato-topo i {
+        font-size: 3em;
+        margin-right: 5px;
+    }
+    .contato-topo h6:first-of-type {
+        margin-bottom: 0;
+        font-size: 0.8em;
+    }
+    .contato-topo h6:last-of-type {
+        margin: 0;
+        font-weight: 900;
+    }
+    /* SESSÃO HEADER */
+
+    /* SESSÃO SLIDER */
+    .slider {
+        position: relative;
+        display: block;
+    }
+    .mensagem-slider {
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+    }
+    .mensagem-slider h5 {
+        background-color: #0c79ba;
+        display: inline-block;
+        padding: 10px;
+        margin: 0;
+    }
+    .mensagem-conteudo {
+        width: 50%;
+        background: #fff;
+        padding: 25px;
+        border-left: 5px solid #0c79ba;
+    }
+    .mensagem-conteudo p {
+        color: #546579;
+    }
+    /* SESSÃO SLIDER */
+    
+    /* SESSÃO SLIDER-MOBILE */
+    .slider-mobile {
+        display: none;
+    }
+    /* SESSÃO SLIDER-MOBILE */
+
+    /* SESSÃO DOENÇAS */
+    .tab-content-doencas {
+        margin: 0px 0px;
+    }
+    /* SESSÃO DOENÇAS */
+
+    /* SESSÃO AGENDAMENTOS */
+    .agendamento {
+        margin: 100px 0px;
+    }
+    .agendar {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .agendar input {
+        width: calc(25% - 11.25px);
+        margin-right: 15px;
+    }
+    .agendar input:last-of-type {
+        width: calc(25% - 11.25px);
+        margin-right: 0;
+    }
+    .item-agendamento {
+        margin: 0px 0px;
+    }
+    /* SESSÃO AGENDAMENTOS */
+
+
+    /* SESSÃO SERVIÇOS/HOSPITAL */
+    .cores {
+        flex-direction: row;
+    }
+    .azul {
+        width: 50%;
+    }
+    .cinza {
+        width: 50%;
+    }
+    .conteudo-cinza {
+        width: 71.79%;
+        margin-left: auto;
+        padding-left: 15px;
+    }
+    .conteudo-azul {
+        width: 71.79%;
+        margin-right: auto;
+        padding-right: 15px;
+        margin-left: 65px;
+    }
+    /* SESSÃO SERVIÇOS/HOSPITAL */
+
+
+    /* SESSÃO MEDICOS */
+    .lista-medicos {
+        flex-flow: row wrap;
+    }
+    .item-medicos {
+        margin-right: 30px;
+        width: calc((100% - 60px) / 3);
+    }
+    .item-medicos:nth-child(3n) {
+        margin-right: 0;
+    }
+    /* SESSÃO MEDICOS */
+
+
+    /* SESSÃO DOENÇAS */
+    .tabs-doencas {
+        justify-content: space-between;
+        flex-flow: unset;
+    }
+    .tab-content-doencas {
+        width: calc(100% / 3);
+    }
+    .tabs-doencas-content.active {
+        flex-direction: row;
+    }
+    .triangle-doencas {
+        width: 0px;
+        height: 0px;
+        margin: auto;
+        display: none;
+        border-bottom: 10px solid #fff;
+        border-left: 10px solid #8d8d8d;
+        border-right: 10px solid #8d8d8d;
+        margin-top: 40px;
+    }
+    .triangle-doencas.active {
+        display: block;
+    }
+    /* SESSÃO DOENÇAS */
+
+    /* SESSÃO POSTS */
+    .posts {
+        display: flex;
+    }
+    .ultimo-post {
+        min-width: calc(50% - 15px);
+        margin-right: 30px;
+    }
+    .posts-recentes {
+        min-width: calc(50% - 15px);
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 44px;
+    }
+    .item-posts {
+        max-width: calc(50% - 15px);
+    }
+    .item-posts:nth-of-type(1),
+    .item-posts:nth-of-type(3) {
+        margin-right: 30px;
+    }
+    .ultimo-post {
+        margin-bottom: 0rem;
+    }
+    /* SESSÃO POSTS */
+
+    /* SESSÃO AGENDAMENTO */
+    .agendamento-conteudo {
+        flex-direction: row;
+    }
+    /* SESSÃO DEPOIMENTO */
+    .depoimento {
+        padding: 60px 130px;
+    }
+
+    /* FOOTER */
+    .footer {
+        flex-direction: row !important;
+    }
+    .footer > div {
+        min-width: calc((100% - 60px) / 4);
+        margin-right: 20px;
+    }
+    .footer > div:last-of-type {
+        margin-right: 0;
+    }
+    .contato, .horarios, .novidades, .links {
+        margin: 0px 0px;
+    }
+    /* FOOTER */
+
+
+/**************/
+/**************/
+/**************/
+/* página medico (single) */
+
+
+    .medico-conteudo {
+        display: flex;
+    }
+    .hozn-conteudo {
+        min-width: calc(70% - 30px);
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    .hozn-sidebar .agendamentos {
+        margin-top: 30px !important;
+    }
+    .hozn-sidebar .agendamentos .agendar {
+        flex-direction: column;
+    }
+    .hozn-sidebar .agendamentos .agendar input {
+        width: 100%;
+        margin-right: 0;
+    }
+    .hozn-horarios {
+        display: flex;
+    }
+    .img-flex-container {
+        margin-right: 30px;
+        width: 68%;
+    }
+    .hozn-horarios .horarios-atendimento {
+        width: auto;
+        flex-grow: 1;
+    }
+    .horarios-lista {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .horarios-lista li {
+        width: calc(100% /2);
+    }
+    .horarios-lista li:nth-child(1n) {
+        padding-right: 10px;
+    }
+    .horarios-lista li:nth-child(2n) {
+        padding-left: 10px;
+    }
+    .horarios-lista li:last-of-type {
+        border-bottom: thin solid;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+/**************/
+/**************/
+/**************/
+
+
+/**************/
+/**************/
+/**************/
+/* página listagem de posts */
+
+    .posts-conteudo {
+        display: flex;
+    }
+    .lista-posts {
+        min-width: calc(70% - 30px);
+        margin-right: 30px;
+    }
+    .post-info {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .post-info > li {
+        padding: 10px 5px;
+        flex-grow: 1;
+    }
+    .paginacao {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .post-data ul {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .post-data ul li {
+        width: 50%
+    }
+
+/**************/
+/**************/
+/**************/
+
+
+
+}

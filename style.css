@@ -1,0 +1,923 @@
+/* SESSÃO HEADER */
+.header-conteudo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    position: relative;
+    z-index: 100;
+}
+.logo a img {
+    width: 70%;
+}
+.menu-conteudo {
+    margin-left: 0px;
+    width: 100%;
+}
+.social-menu {
+    display: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px 0;
+    flex-grow: 1;
+}
+.menu ul li a {
+    color: #546579;
+    text-decoration: none;
+}
+.menu ul .active a {
+    font-weight: 900;
+    color: #0c79ba;
+}
+.contato-topo {
+    display: none;
+}
+/* SESSÃO HEADER */
+
+/* SESSÃO SLIDER */
+.slider {
+    display: none;
+}
+/* SESSÃO SLIDER */
+
+/* SESSÃO SLIDER-MOBILE */
+.slider-mobile {
+    
+}
+/* SESSÃO SLIDER-MOBILE */
+
+/* SESSÃO AGENDAMENTOS */
+.agendamentos {
+    padding: 100px 0px;
+    position: relative;
+}
+.titulo-agendamentos {
+    flex-direction: column;
+}
+.agendar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .agendar input, .agendar textarea {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        border-radius: 0px;
+        border: 1px solid #ccc;
+    }
+/* SESSÃO AGENDAMENTOS */
+
+/* SESSÃO SERVIÇOS/HOSPITAL */
+.cores {
+    display: flex;
+    flex-direction: column;
+}
+    .azul {
+        background-color: #0C79BA;
+        padding: 100px 0px;
+        width: 100%;
+    }
+        .conteudo-azul {
+            padding: 0px 15px;
+        }
+        .conteudo-azul p,
+        .conteudo-azul a {
+            font-family: 'Raleway', sans-serif;
+            color: #fff;
+        }
+    .cinza {
+        background-color: #546579;
+        padding: 100px 0px;
+        width: 100%;
+    }
+        .conteudo-cinza {
+            padding: 0px 15px;
+        }
+        .conteudo-cinza p {
+            font-family: 'Raleway', sans-serif;
+            color: #fff;
+        }
+        .conteudo-cinza h6 {
+            color: #fff;
+        }
+.servicos-lista {
+    padding: 0;
+    list-style: none;
+}
+.servicos-lista li::before {
+    content: '\f10c';
+    font-family: FontAwesome;
+    margin-right: 5px;
+    font-size: 0.5em;
+    color: #fff;
+    font-weight: 900;
+    top: -3px;
+    position: relative;
+}
+/* SESSÃO SERVIÇOS/HOSPITAL */
+
+
+/* SESSÃO MEDICOS */
+.medicos {
+    padding: 100px 0px;
+    position: relative;
+}
+.titulo-medicos {
+    flex-direction: column;
+}
+.lista-medicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-medicos {
+    border-left: 4px solid #0C79BA;
+    margin-bottom: 20px;
+}
+    .item-medicos h5 {
+        background-color: #0C79BA;
+        padding: 10px 10px 10px 5px;
+        margin: 0;
+        display: inline-block;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .item-medicos img {
+        width: 100%;
+    }
+.item-medicos-data {
+    padding: 20px;
+    flex-flow: row wrap;
+    background-color: #F0F5F9;
+}
+    .item-medicos-data h6 {
+        width: calc(100% - 72px);
+        text-transform: uppercase;
+        color: #0c79ba;
+    }
+    .item-medicos-data p {
+        color: #546579;
+    }
+.social-medicos {
+    width: 72px;
+    padding: 0;
+    list-style: none;
+}
+    .social-medicos li {
+        width: 24px;
+        height: 24px;
+        text-align: center;
+    }
+    .social-medicos li a {
+        color: #546579;
+    }
+/* SESSÃO MEDICOS */
+
+/* SESSÃO DOENÇAS */
+.doencas {
+    padding-top: 100px;
+    background-color: #8D8D8D;
+    position: relative;
+}
+.item-doencas {
+    cursor: pointer;
+    text-align: center;
+    width: calc(100% / 3);
+}
+.item-doencas p {
+    font-size: 0.8rem;
+}
+.tabs-doencas {
+    display: flex;
+    flex-flow: row wrap;
+}
+.tabs-doencas-content {
+    display: none;
+    padding: 50px 0px;
+}
+.tabs-doencas-content.active {
+    display: flex;
+    flex-direction: column;
+}
+.triangle-doencas {
+    display: none;
+}
+.lista-beneficios-doencas {
+    list-style: none;
+    padding: 0;
+    color: #546579;
+}
+.lista-beneficios-doencas li::before {
+    content: '\f00c';
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+.tab-content-doencas.coluna-um {
+    border-left: 4px solid #0c79ba;
+    padding-left: 30px;
+    border-right: thin solid #ccc;
+    padding-right: 30px;
+}
+.tab-content-doencas.coluna-um p {
+    color: #546579;
+}
+.tab-content-doencas.coluna-um a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #0c79ba;
+}
+.tab-content-doencas.coluna-dois {
+    padding: 0px 30px;
+}
+.tab-content-doencas {
+    margin: 30px 0px;
+}
+/* SESSÃO DOENÇAS */
+
+/* SESSÃO AGENDAMENTO */
+.agendamento {
+    margin: 50px 0px;
+}
+.agendamento-conteudo {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #50B9F3;
+    flex-direction: column;
+    align-items: center;
+}
+.item-agendamento i {
+    font-size: 5em;
+    margin-right: 10px;
+}
+.item-agendamento {
+    margin: 30px 0px;
+}
+/* SESSÃO AGENDAMENTO */
+
+/* SESSÃO DEPOIMENTOS */
+.depoimentos {
+    background-color: #3B4755;
+    color: #BECBDB;
+    padding: 30px 0px;
+}
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    padding: 60px 45px;
+}
+.depoimento i {
+    color: #50B9F3;
+    font-size: 3em;
+}
+/* SESSÃO DEPOIMENTOS */
+
+/* SESSÃO POSTS */
+.blog-posts {
+    padding: 100px 0px;
+    position: relative;
+}
+.item-ultimo-post {
+    border-left: 4px solid #0c79ba;
+}
+.item-ultimo-post h5 {
+    background-color: #0c79ba;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+.item-ultimo-post h6 {
+    color: #546579;
+    font-weight: 600;
+}
+.item-ultimo-post p {
+    color: #546579;
+}
+.item-ultimo-post a {
+    color: #0c79ba;
+    text-decoration: none;
+}
+.item-ultimo-post-data {
+    flex-direction: column;
+    padding: 20px;
+    background-color: #F0F5F9;
+}
+.item-posts-data p {
+    color: #546579;
+}
+.ultimo-post {
+    margin-bottom: 1rem;
+}
+/* SESSÃO POSTS */
+
+/* FOOTER */
+footer {
+    padding-top: 60px;
+    background-color: #546579;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover {
+    color: #fff;
+}
+.assinatura {
+    padding: 40px 0px;
+}
+.assinatura a {
+    margin: 0px 40px;
+}
+.assinatura hr {
+    width: calc((100% / 2) - 182px);
+    background: #8f8f8f;
+}
+.novidades .btn-novidades {
+    background-color: #50B9F3;
+    border-color: #50B9F3;
+    color: #fff;
+}
+.novidades .btn-novidades:hover {
+    background-color: #0c79ba;
+    border-color: #0c79ba;
+}
+.novidades .form-control::placeholder {
+    color: #8d9dab;
+    font-size: 0.8em;
+    background: #3F4F5F;
+}
+.novidades .form-control::-moz-placeholder {
+    color: #8d9dab;
+    background: #3F4F5F;
+    font-size: 0.8em;
+}
+.novidades .form-control {
+    border-color: #3F4F5F;
+    background-color: #3f4f5f;
+}
+.links ul {
+    padding: 0;
+    list-style: none;
+}
+.horarios ul {
+    padding: 0;
+    list-style: none;
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+.horarios li {
+    padding: 15px 0px;
+    border-bottom: thin solid #6f6f6f;
+}
+.horarios li:last-of-type {
+    border-bottom: none;
+}
+.horarios ul p {
+    margin: 0;
+}
+.contato, .horarios, .novidades, .links {
+    margin: 30px 0px;
+}
+/* FOOTER */
+
+
+
+
+
+/**************/
+/**************/
+/**************/
+/* página nossos_medicos */
+
+.pagina {
+    position: relative;
+}
+.pagina img {
+    width: 100%;
+}
+.titulo-subpagina {
+    position: absolute;
+    top: 45%;
+    border-left: 4px solid #0c79ba;
+}
+.titulo-subpagina h5 {
+    margin: 0;
+    background: #0c79ba;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+.titulo-subpagina h3 {
+    margin: 0;
+    background: #fff;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #54667A;
+}
+.titulo-subpagina.scale-mobile {
+    transform: scale(0.7);
+}
+/**************/
+/**************/
+/**************/
+
+
+
+
+
+
+/**************/
+/**************/
+/**************/
+/* página medico (single) */
+
+.hozn-conteudo {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 20px;
+}
+.hozn-conteudo p {
+    color: #546579;
+}
+.hozn-conteudo img {
+    width: 100%;
+}
+.horarios-atendimento {
+    margin: 0 0 30px 0;
+    background: #8D8D8D;
+    padding: 30px;
+}
+.horarios-atendimento.horarios-lista {
+    padding: 0px;
+    list-style: none;
+    color: #ccc;
+}
+.horarios-lista {
+    list-style: none;
+    color: #ccc;
+    padding: 0;
+    margin: 0;
+}
+.horarios-lista li {
+    border-bottom: thin solid;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.horarios-lista li:last-of-type {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.body-color {
+    background: #F0F4F7;
+}
+.horarios-titulo {
+    color: #8d8d8d;
+    font-weight: 900;
+}
+.experiencia-lista {
+    padding: 0;
+    list-style: none;
+}
+.experiencia-lista h6, .experiencia-lista p {
+    color: #546579;
+}
+.experiencia-lista h6 {
+    font-weight: 900;
+}
+.hozn-sidebar .agendamentos {
+    background: #50B9F3;
+    padding: 20px;
+}
+.hozn-sidebar .agendamentos .agendar input,
+.hozn-sidebar .agendamentos .agendar textarea {
+    border: 1px solid #2C9AD9;
+    background: #2C9AD9;
+}
+.hozn-sidebar .agendamentos .agendar input::placeholder,
+.hozn-sidebar .agendamentos .agendar textarea::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.medicos-sidebar {
+    padding: 20px;
+    background: #fff;
+    color: #54667A;
+}
+.medicos-sidebar .lista-medicos {
+    padding: 0;
+    list-style: none;
+}
+.medicos-sidebar .lista-medicos li {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.medicos-sidebar .lista-medicos li a {
+    color: #54667A;
+    text-decoration: none;
+    font-weight: 700;
+}
+/**************/
+/**************/
+/**************/
+
+
+
+
+
+
+/**************/
+/**************/
+/**************/
+/* página listagem de posts */
+.posts {
+    margin-top: 30px;
+}
+.post {
+    border-left: 4px solid #0c79ba;
+    margin-bottom: 30px;
+}
+.post h5 {
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+    background-color: #0c79ba;
+    color: #fff;
+}
+.post-data {
+    background: #fff;
+    padding: 20px;
+}
+.post-data h4 {
+    color: #0c79ba;
+}
+.post-data p {
+    color: #546579;
+}
+.post-data p:last-of-type {
+    margin: 0;
+}
+.post-info {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    margin-left: 20px;
+    background-color: #F7FBFE;
+}
+.post-info > li {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.post-info > li a {
+    color: #546579;
+}
+.post-info > li a i {
+    margin-right: 5px;
+    color: #546579;
+}
+.post-tags {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+}
+.post-tags i,
+.post-tags li {
+    margin-right: 5px;
+    color: #546579;
+}
+.post-tags li:last-of-type {
+    margin-right: 0px;
+}
+
+.recentes {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.posts-recentes {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.posts-recentes li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.posts-recentes li a {
+    display: flex;
+    text-decoration: none;
+    color: #546579;
+}
+.posts-recentes li a div:first-of-type {
+    margin-right: 20px;
+}
+.posts-recentes li a p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.3;
+}
+.posts-recentes li:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.paginacao {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.paginacao li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3DDE6;
+    margin-right: 10px;
+}
+.paginacao li:hover {
+    background-color: #50B9F3;
+}
+.paginacao li:hover a {
+    color: #fff;
+}
+.paginacao li:last-of-type {
+    margin-right: 0;
+}
+.paginacao li a {
+    color: #546579;
+    text-decoration: none;
+}
+.paginacao li.ativo {
+    background-color: #50B9F3;
+}
+.paginacao li.ativo a {
+    color: #fff;
+}
+.busca {
+    padding: 40px 20px;
+    background-color: #50b9f3;
+    margin-bottom: 30px;
+}
+.busca .busca-form {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.busca-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    background-color: #2C9AD9;
+    color: #fff;
+}
+.busca-form button {
+    border: none;
+    padding: 10px 20px;
+    color: #0c79ba;
+}
+.busca-form input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.sidebar-categorias,
+.sidebar-tags {
+    margin-bottom: 30px;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+.lista-categorias {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.lista-categorias li {
+    margin-bottom: 15px;
+}
+.lista-categorias li a {
+    color: #546579;
+    text-decoration: none;
+}
+.lista-tags {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+.lista-tags li {
+    display: inline-block;
+    padding: 2px 6px;
+    background-color: #DEE3E7;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.lista-tags li a {
+    color: #546579;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.lista-tags li:hover {
+    background-color: #546579;
+}
+.lista-tags li:hover a {
+    color: #fff;
+}
+/**************/
+/**************/
+/**************/
+
+
+/**************/
+/**************/
+/**************/
+/* página single post */
+.post-data h5 {
+    background: transparent;
+    color: #858585;
+    padding: 0;
+    margin: 10px 0px 20px 0px;
+}
+.post-data ul {
+    margin: 30px 0px;
+    padding: 0;
+    list-style: none;
+}
+.post-data ul li {
+    margin: 10px 0px;
+    color: #546579;
+}
+/**************/
+/**************/
+/**************/
+
+
+
+/* elementos */
+    /* botões */
+    .botao {
+        background-color: #0c79ba;
+        color: #fff;
+        padding: 10px 40px;
+        text-decoration: none;
+        border: 2px solid #0c79ba;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+    }
+    .botao.invertido {
+        background-color: #fff;
+        color: #0c79ba;
+        border: 2px solid #fff;
+    }
+    .botao.invertido-grey {
+        background-color: #fff;
+        color: #546579;
+        border: 2px solid #fff;
+    }
+    .botao:hover {
+        background-color: #fff;
+        color: #0c79ba;
+        text-decoration: none;
+    }
+    .botao:hover.invertido {
+        background-color: #0c79ba;
+        color: #fff;
+    }
+    .botao:hover.invertido-grey {
+        background-color: #546579;
+        color: #fff;
+    }
+
+
+    /* Titulo */
+    .titulo-fino {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+    .titulo-grosso {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+    .branco {
+        color: #fff;
+    }
+    .texto-azul {
+        color: #0c79ba;
+    }
+    .grey {
+        color: #546579;
+    }
+    .titulo-grosso-small {
+        font-size: 2em;
+    }
+
+
+    /* Texto */
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+
+    /* blockquote */
+    blockquote {
+        padding: 50px 30px;
+        background: #F3FBFE;
+        -webkit-box-shadow: inset 5px 0px 0px 0px #858585;
+        -moz-box-shadow: inset 5px 0px 0px 0px #858585;
+        box-shadow: inset 5px 0px 0px 0px #858585;
+        color: #858585;
+    }
+
+
+    /* base */
+    .base-branco {
+        background: #fff;
+        display: inline-block;
+        height: 80px;
+        position: absolute;
+        top: -35px;
+        right: calc(50% - 75px);
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .base-branco:before {
+        border-bottom: 45px solid #fff;
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: -45px;
+        width: 0;
+    }
+
+    .base-cinza {
+        background: #8d8d8d;
+        display: inline-block;
+        height: 80px;
+        position: absolute;
+        width: 150px;
+        top: -35px;
+        right: calc(50% - 75px);
+        display: flex;
+        justify-content: center;
+    }
+
+    .base-cinza:before {
+        border-bottom: 45px solid #8d8d8d;;
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: -45px;
+        width: 0;
+    }
+    .base-cinza i {
+        font-size: 4em;
+        color: #fff;
+    }
+    .base-branco i {
+        font-size: 4em;
+        color: #0c79ba;
+    }
